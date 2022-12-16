@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Smile</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/Javascript" src="jquery-3.6.1.min.js"></script>
+    <body>
+        <div class="head">
+            <div class="face">
+              <div class="mouth"></div>
+              <div class="eye-group">
+                <div class="eye eye-left"></div>
+                <div class="eye eye-right"></div>
+              </div>
+            </div>
+        </div>
+
+        <script type="text/Javascript">
+            $(document).ready(function(){
+                $("button").click(function(){
+                   $("div").fadeIn();
+                });
+            });
+
+        </script>
+
+        <div class="button"><button>Smile</button></div>
+
+    </body>
+</html>
